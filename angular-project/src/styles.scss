@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Larsseit;
+  src: url(/angular-project/src/custom-font/Larsseit/Larsseit.otf);
+}
+
+$font-size: 18px;
+$small-radius: 24px;
+$small-trait-stroke: 2px;
+
+$dark-blue: #1B4965;
+$light-blue: #5FA8D3;
+$off-white: #E3E7D3;
+
+body {
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  font-size: $font-size;
+}
+
+p, h1, h2, h3, li, ol, ul, button {
+  font-family: Larsseit;
+  color: $off-white;
+  font-weight: 100;
+}
+
+li {
+  text-decoration: none;
+}
+
+button {
+  border-radius: $small-radius;
+  padding: 15px 50px;
+  border-color: $off-white;
+  border-width: $small-trait-stroke;
+  background: none;
+  color: $off-white;
+}
+
+button:hover {
+  border-color: none;
+  color: $dark-blue;
+  background-color: $off-white;
+  transition: all 500ms;
+}

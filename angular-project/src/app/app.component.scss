@@ -6,14 +6,9 @@ $dark-blue: #1B4965;
 $light-blue: #5FA8D3;
 $off-white: #E3E7D3;
 
-
-.container {
-  margin: 0 25px;
-}
-
-h1 {
+.main-title h1 {
   font-size: 88px;
   text-align: right;
   padding-right: 5vw;
-  font-weight: 700;
+  font-weight: 700 !important;
 }

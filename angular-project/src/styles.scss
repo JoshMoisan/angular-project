@@ -12,9 +12,10 @@ $light-blue: #5FA8D3;
 $off-white: #E3E7D3;
 
 body {
-  background-image: url(./images/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url(./images/bg.png);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background-color: $dark-blue;
   width: 100%;
 
   font-size: $font-size;

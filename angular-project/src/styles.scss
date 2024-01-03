@@ -15,6 +15,7 @@ body {
   // background-image: url(./images/bg.png);
   // background-size: cover;
   // background-repeat: no-repeat;
+  // margin: 50px 50px;
   background-color: $dark-blue;
   width: 100%;
 
@@ -24,7 +25,7 @@ body {
 p, h1, h2, h3, li, ol, ul, button {
   font-family: Larsseit;
   color: $off-white;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 li {

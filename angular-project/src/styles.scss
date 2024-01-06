@@ -4,7 +4,7 @@
 }
 
 $font-size: 18px;
-$small-radius: 24px;
+$small-radius: 16px;
 $small-trait-stroke: 2px;
 
 $dark-blue: #1B4965;
@@ -12,13 +12,7 @@ $light-blue: #5FA8D3;
 $off-white: #E3E7D3;
 
 body {
-  // background-image: url(./images/bg.png);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // margin: 50px 50px;
   background-color: $dark-blue;
-  width: 100%;
-
   font-size: $font-size;
 }
 
@@ -39,6 +33,7 @@ button {
   border-width: $small-trait-stroke;
   background: none;
   color: $off-white;
+  border-style: solid;
 }
 
 button:hover {

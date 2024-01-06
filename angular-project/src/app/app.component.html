@@ -1,21 +1,30 @@
 <div class="container">
+  <div class="flex-display">
+    <div class="left-pannel">
+      <span class="top-bar">
+        <div class="main-title">
+          <h1>Christelle</h1>
+          <h1>Marois</h1>
+        </div>
+        <div class="img-christelle">
+          <img src="https://picsum.photos/500/800" alt="Christelle">
+        </div>
+      </span>
 
-  <span class="top-bar">
-    <div class="main-title">
-      <h1>Christelle</h1>
-      <h1>Marois</h1>
+      <div class="button-list">
+        <button> Histoires </button>
+        <button> Spécialité </button>
+        <button> Contacte </button>
+      </div>
     </div>
-    <div class="img-christelle">
-      <img src="https://picsum.photos/500/800" alt="Christelle">
+    <div class="right-pannel">
+      <app-intro></app-intro>
     </div>
-  </span>
-
-  <div class="button-list">
-    <button> Histoires </button>
-    <button> Spécialité </button>
-    <button> Contacte </button>
   </div>
 
+  <footer>
+    <app-footer></app-footer>
+  </footer>
 </div>
 
 <router-outlet></router-outlet>

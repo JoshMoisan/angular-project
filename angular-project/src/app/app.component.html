@@ -12,14 +12,18 @@
       </span>
 
       <div class="button-list">
-        <button> Histoires </button>
-        <button> Spécialité </button>
-        <button> Contacte </button>
+        <button (click)="showPanel($event)"> {{ stories }} </button>
+        <button (click)="showPanel($event)"> {{ speciality }} </button>
+        <button (click)="showPanel($event)"> {{ contact }} </button>
       </div>
     </div>
     <div class="right-pannel">
       <app-intro></app-intro>
     </div>
+  </div>
+
+  <div class="bottom-info outline-text">
+    <h1>Une personne à l'écoute</h1>
   </div>
 
   <footer>

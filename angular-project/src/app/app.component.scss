@@ -33,11 +33,11 @@ $off-white: #E3E7D3;
   }
   img {
     position: absolute;
-    margin-top: -15%;
-    margin-left: -25%;
+    margin-top: -10%;
+    margin-left: -20%;
     z-index: -1;
     animation-name: fadeIn;
-    animation-duration: 2500ms;
+    animation-duration: 5000ms;
   }
 }
 
@@ -59,4 +59,18 @@ $off-white: #E3E7D3;
   margin-top: 20%;
   display: flex;
   justify-content: space-around;
+}
+
+.outline-text {
+  h1 {
+    -webkit-text-stroke: 1px $off-white;
+    font-size: 128px;
+    text-align: right;
+    margin-top: 12vh;
+    color: $dark-blue;
+    &:hover {
+      color: $off-white;
+      transition: color ease-in-out 2000ms;
+    }
+  }
 }

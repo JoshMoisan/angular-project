@@ -34,10 +34,13 @@ button {
   background: none;
   color: $off-white;
   border-style: solid;
+  &.active {
+    color: $dark-blue;
+    background-color: $off-white;
+  }
 }
 
 button:hover {
-  border-color: none;
   color: $dark-blue;
   background-color: $off-white;
   transition: all 500ms;

@@ -1,0 +1,25 @@
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.intro {
+  margin-left: 30%;
+  width: 600px;
+  h1 {
+    font-size: 128px;
+    animation-name: fadeIn;
+    animation-duration: 3000ms;
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 80px;
+    animation-name: fadeIn;
+    animation-duration: 3000ms;
+    overflow: hidden;
+  }
+}
+
+.hidden {
+  display: none;
+}
